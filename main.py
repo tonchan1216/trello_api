@@ -1,8 +1,6 @@
 import requests
 import json
 
-key = '595475346a2314ee8314c0b991620aa6'
-token = 'f1b84cd3a50cd2fe4942bbb641407245b4c7f5914e63315e5ea5c7ba3b97c915'
 
 def get_bord(n):
 	payload = {'key': key, 'token': token, 'fields':'name'}
